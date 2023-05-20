@@ -1,0 +1,13 @@
+server:
+  port: 8762
+  
+spring:
+  application:
+    name: CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/g10gupta/microservice-configurations-server
+          clone-on-start: true
